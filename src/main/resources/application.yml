@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: claude-demo
+  config:
+    import: optional:file:./resources/secret.yml
