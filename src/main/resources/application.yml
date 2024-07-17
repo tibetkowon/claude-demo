@@ -2,4 +2,8 @@ spring:
   application:
     name: claude-demo
   config:
-    import: optional:file:./resources/secret.yml
+    import: optional:classpath:secret.yml
+
+claude:
+  api:
+    url: https://api.anthropic.com/v1/messages
